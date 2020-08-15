@@ -1,0 +1,43 @@
+{
+  "title": "Example Config Flow",
+  "config": {
+    "step": {
+      "user": {
+        "description": "Example Configuration",
+        "data": {
+          "name": "Name",
+          "host": "IP address",
+          "api_key": "API key"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect, please try again",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "options_1": {
+        "description": "Example Options",
+        "data": {
+          "example_check": "example_check",
+          "example_input": "example_input"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect, please try again",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
+

@@ -1,0 +1,14 @@
+{
+  "domain": "example",
+  "name": "Example Config Flow",
+  "config_flow": true,
+  "documentation": "https://github.com/tprelog/example-integration",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@tprelog"
+  ]
+}
